@@ -4,6 +4,7 @@ def test(*args):
     print(args)
     for arg in enumerate(args):
         print('итог:',arg)
+        return args
 print(test(15))
 #всё ещё не поняла как убрать None :\
 def factorial(n):
