@@ -1,0 +1,2 @@
+import modules
+print('Успех!!!')
