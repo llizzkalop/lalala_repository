@@ -1,2 +1,4 @@
 import main
-print('Успех!!!')
+
+main.function1()
+main.function2()
