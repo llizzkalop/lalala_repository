@@ -6,7 +6,9 @@ class Building:
         Building.total += 30
 values = []
 values_sets = randint(0,40)
-while len(values) < values_sets:
-    new_values = Building()
-    values.append(new_values)
-print(Building.total)
+
+for values_sets in range(40):
+    while len(values) < values_sets:
+        new_values = Building()
+        values.append(new_values)
+    print(Building.total)
