@@ -1,4 +1,3 @@
-from pprint import pprint
 
 file_name = 'file1.txt'
 with open(file_name, mode='r') as file:
