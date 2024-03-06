@@ -21,7 +21,7 @@ def divides_numbers(a, b):
     except ZeroDivisionError:
         return "Ошибка деления на ноль"
     except TypeError:
-        return "Ошибка, я не могу складывать не числа"
+        return "Ошибка, я не могу сложить число и строку"
 
 
 def access_list_element(lst, index):
@@ -31,3 +31,10 @@ def access_list_element(lst, index):
         return f"Ошибка: индекс {index} не входит в диапазон списка"
     except TypeError:
         return f"Ошибка: индекс должен быть целым числом"
+
+print(string_to_int('Hello'))
+read_files('pop.txt')
+print(divides_numbers('0',5))
+print(divides_numbers(10,0))
+print(access_list_element("Low",15))
+print(access_list_element(15,5.5))
